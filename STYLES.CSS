@@ -1,0 +1,191 @@
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F8F9FB;
+    color: #001A33;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 26, 51, 0.4);
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    padding: 150px 60px 0;
+    background: linear-gradient(135deg, #001A33, #000F1A);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* BUTTONS */
+.btn-primary {
+    background: #00C2A8;
+    padding: 14px 28px;
+    color: #001A33;
+    font-weight: 600;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 14px;
+}
+
+.btn-outline {
+    padding: 14px 28px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-small {
+    background: #001A33;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* METRICS */
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 60px;
+}
+
+.metric-card {
+    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid rgba(0,26,51,.1);
+}
+
+.metric-card h2 {
+    font-size: 42px;
+    color: #00C2A8;
+    margin: 0;
+}
+
+/* PROJECTS */
+.work-section {
+    padding: 60px;
+}
+
+.project-card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #001A33;
+}
+
+.project-thumb {
+    width: 35%;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+}
+
+/* Placeholder backgrounds */
+.thumb1 { background: linear-gradient(135deg,#00C2A8,#001A33); }
+.thumb2 { background: linear-gradient(135deg,#FFD65A,#001A33); }
+.thumb3 { background: linear-gradient(135deg,#001A33,#00C2A8); }
+
+.project-info {
+    padding: 30px;
+}
+
+.project-info h3 {
+    margin-top: 0;
+}
+
+/* CTA BANNER */
+.cta-banner {
+    background: #00C2A8;
+    padding: 80px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.btn-dark {
+    background: #001A33;
+    padding: 14px 28px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/* CONTACT FORM */
+.contact-section {
+    padding: 60px;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 14px;
+    border: 2px solid #001A33;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn-primary.full {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #001A33;
+    opacity: 0.8;
+}
